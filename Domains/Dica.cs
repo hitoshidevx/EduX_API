@@ -13,7 +13,7 @@ namespace EduX_API.Domains
         public int IdDica { get; set; }
         public string Texto { get; set; }
         public string Imagem { get; set; }
-        public int? IdUsuario { get; set; }
+        public int IdUsuario { get; set; }
 
         public virtual Usuario IdUsuarioNavigation { get; set; }
         public virtual ICollection<Curtida> Curtida { get; set; }
