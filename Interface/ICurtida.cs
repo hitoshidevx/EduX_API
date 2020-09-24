@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace EduX_API.Interface
 {
-    interface IDica
+    interface ICurtida
     {
 
-        List<Dica> ListarTodos();
-        Dica BuscarPorID(Guid id);
-        void Cadastrar(Dica dica);
-        void Alterar(Guid id, Dica dica);
+        List<Curtida> ListarTodos();
+        Curtida BuscarPorID(Guid id);
+        void Cadastrar(Curtida curtida);
+        void Alterar(Guid id, Curtida curtida);
         void Excluir(Guid id);
+
     }
 }
