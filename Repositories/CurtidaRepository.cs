@@ -8,31 +8,28 @@ using System.Threading.Tasks;
 
 namespace EduX_API.Repositories
 {
-    public class DicaRepository : IDica
+    public class CurtidaRepository : ICurtida
     {
+
         private readonly EduXContext _ctx;
 
-        public DicaRepository()
+        public CurtidaRepository()
         {
             _ctx = new EduXContext();
         }
 
         /// <summary>
-        /// Altera uma dica já criada apartir do seu id.
+        /// Altera uma curtida.
         /// </summary>
         /// <param name="id"></param>
-        /// <param name="dica"></param>
-        public void Alterar(Guid id, Dica dica)
+        /// <param name="curtida"></param>
+        public void Alterar(Guid id, Curtida curtida)
         {
             try
             {
-                Dica dicaTemp = BuscarPorID(id);
+                Curtida curtidaTemp = BuscarPorID(id);
 
-                dicaTemp.Curtida = dica.Curtida;
-                dicaTemp.Imagem  = dica.Imagem;
-                dicaTemp.Texto   = dica.Texto;
-
-                _ctx.Dica.Update(dicaTemp);
+                _ctx.Curtida.Update(curtidaTemp);
                 _ctx.SaveChanges();
             }
             catch (Exception ex)
@@ -43,15 +40,15 @@ namespace EduX_API.Repositories
         }
 
         /// <summary>
-        /// Busca um produto pelo id.
+        /// Busca uma curtida pelo id.
         /// </summary>
         /// <param name="id"></param>
-        /// <returns>Retorna o produto buscado</returns>
-        public Dica BuscarPorID(Guid id)
+        /// <returns></returns>
+        public Curtida BuscarPorID(Guid id)
         {
             try
             {
-                return _ctx.Dica.Find(id);
+                return _ctx.Curtida.Find(id);
             }
             catch (Exception ex)
             {
@@ -61,14 +58,14 @@ namespace EduX_API.Repositories
         }
 
         /// <summary>
-        /// Cadastra um produto no banco.
+        /// Cadastra uma curtida do banco.
         /// </summary>
-        /// <param name="dica"></param>
-        public void Cadastrar(Dica dica)
+        /// <param name="curtida"></param>
+        public void Cadastrar(Curtida curtida)
         {
             try
             {
-                _ctx.Dica.Add(dica);
+                _ctx.Curtida.Add(curtida);
                 _ctx.SaveChanges();
             }
             catch (Exception ex)
@@ -79,37 +76,23 @@ namespace EduX_API.Repositories
         }
 
         /// <summary>
-        /// Exclui um produto do banco.
+        /// Exclui uma curtida do banco.
         /// </summary>
         /// <param name="id"></param>
         public void Excluir(Guid id)
         {
-            try
-            {
-                Dica dica = BuscarPorID(id);
-
-                if (dica == null) 
-                    throw new Exception("Produto não encontrado.");
-
-                _ctx.Dica.Remove(dica);
-                _ctx.SaveChanges();
-            }
-            catch (Exception ex)
-            {
-
-                throw new Exception(ex.Message);
-            }
+            throw new NotImplementedException();
         }
 
         /// <summary>
-        /// Lista todos os produtos cadastrados.
+        /// Listar todas as curtidas cadastradas.
         /// </summary>
         /// <returns></returns>
-        public List<Dica> ListarTodos()
+        public List<Curtida> ListarTodos()
         {
             try
             {
-                return _ctx.Dica.ToList();
+                return _ctx.Curtida.ToList();
             }
             catch (Exception ex)
             {
