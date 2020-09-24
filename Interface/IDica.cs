@@ -14,6 +14,5 @@ namespace EduX_API.Interface
         void Cadastrar(Dica dica);
         void Alterar(Guid id, Dica dica);
         void Excluir(Guid id);
-
     }
 }
