@@ -2,6 +2,7 @@
   "version": 2,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "LvwpglY2QF9iqmWsJd6fsSJNzOO6Q0gIXJqd3lGtdI9ZLq5Sn7ofuY8FekGcGoM+JbylXXwfLEf+vYFfMGxQ3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\fic\\Desktop\\a\\EduX_API\\EduX_API.csproj",
@@ -367,6 +368,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj",
   "expectedPackageFiles": [
+=======
+  "dgSpecHash": "zSvDNra5V/nj6S08YYFe6aIOjoQyWf+WcYWA+3h2QuXeALvlXvwU9n48Ng31+Om3SvtGb9MKa4pjjvJNHXPi1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj",
+  "expectedPackageFiles": [
+>>>>>>> toshi
     "C:\\Users\\Yokogawa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Yokogawa\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Yokogawa\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -543,16 +550,20 @@
     "C:\\Users\\Yokogawa\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Yokogawa\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 987b180d3aa7ae642b2e6496b131778eb00548d4
 =======
 >>>>>>> origin
 >>>>>>> d7250eecc58dc4a2e45606abd1d948de1dad6d52
+=======
+>>>>>>> toshi
   ],
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       "message": "Problema ao ler o arquivo de cache C:\\Users\\fic\\Desktop\\a\\EduX_API\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
@@ -565,6 +576,9 @@
       "message": "Problema ao ler o arquivo de cache C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
 >>>>>>> origin
 >>>>>>> d7250eecc58dc4a2e45606abd1d948de1dad6d52
+=======
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> toshi
     }
   ]
 }

@@ -3,6 +3,7 @@
   "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\fic\\Desktop\\a\\EduX_API\\EduX_API.csproj": {}
   },
   "projects": {
@@ -53,6 +54,22 @@
 =======
 >>>>>>> origin
 >>>>>>> d7250eecc58dc4a2e45606abd1d948de1dad6d52
+=======
+    "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj",
+        "projectName": "EduX_API",
+        "projectPath": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj",
+        "packagesPath": "C:\\Users\\Yokogawa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yokogawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> toshi
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
