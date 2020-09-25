@@ -81,7 +81,21 @@ namespace EduX_API.Repositories
         /// <param name="id"></param>
         public void Excluir(Guid id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                Curtida curtida = BuscarPorID(id);
+
+                if (curtida == null)
+                    throw new Exception("Produto não encontrado.");
+
+                _ctx.Curtida.Remove(curtida);
+                _ctx.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw new Exception(ex.Message);
+            }
         }
 
         /// <summary>
