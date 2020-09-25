@@ -1,6 +1,22 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\salvo\\EduX_API-tiago\\EduX_API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\salvo\\EduX_API-tiago\\EduX_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\salvo\\EduX_API-tiago\\EduX_API.csproj",
+        "projectName": "EduX_API",
+        "projectPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\salvo\\EduX_API-tiago\\EduX_API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\salvo\\EduX_API-tiago\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
     "C:\\Users\\fic\\Desktop\\a\\EduX_API\\EduX_API.csproj": {}
   },
   "projects": {
@@ -15,6 +31,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,12 +73,26 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
+<<<<<<< HEAD
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+=======
+>>>>>>> origin
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
             },
+<<<<<<< HEAD
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+=======
+>>>>>>> origin
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.5.0, )"
