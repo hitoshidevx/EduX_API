@@ -1,6 +1,22 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\EduX_API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\EduX_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\EduX_API.csproj",
+        "projectName": "EduX_API",
+        "projectPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\EduX_API.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
     "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj": {}
   },
   "projects": {
@@ -15,6 +31,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Yokogawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

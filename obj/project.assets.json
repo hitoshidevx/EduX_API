@@ -9005,11 +9005,25 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+=======
     "C:\\Users\\Yokogawa\\.nuget\\packages\\": {}
+>>>>>>> origin
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\EduX_API.csproj",
+      "projectName": "EduX_API",
+      "projectPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\EduX_API.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
       "projectUniqueName": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj",
       "projectName": "EduX_API",
       "projectPath": "C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\EduX_API.csproj",
@@ -9018,6 +9032,7 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Yokogawa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9105,7 +9120,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\User\\Desktop\\EAD SENAI\\EAD DEV\\EduX\\EduX_API\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
       "message": "Problema ao ler o arquivo de cache C:\\Users\\Yokogawa\\Documents\\GitHub\\EduX_API\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> origin
     }
   ]
 }
