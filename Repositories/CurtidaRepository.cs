@@ -81,9 +81,6 @@ namespace EduX_API.Repositories
         /// <param name="id"></param>
         public void Excluir(Guid id)
         {
-<<<<<<< HEAD
-            throw new NotImplementedException();
-=======
             try
             {
                 Curtida curtida = BuscarPorID(id);
@@ -99,7 +96,6 @@ namespace EduX_API.Repositories
 
                 throw new Exception(ex.Message);
             }
->>>>>>> origin
         }
 
         /// <summary>
