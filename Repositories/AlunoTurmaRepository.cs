@@ -29,7 +29,14 @@ namespace EduX_API.Repositories
 
         public List<AlunoTurma> ListarTodos()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _ctx.AlunoTurma.ToList();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
 
         public AlunoTurma BuscarPorId(Guid id)

@@ -75,3 +75,6 @@ C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\st
 C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\EduX_API.dll
 C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\EduX_API.pdb
 C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\EduX_API.genruntimeconfig.cache
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\EduX_API.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\EduX_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\EAD SENAI\EAD DEV\EduX\EduX_API\obj\Debug\netcoreapp3.1\EduX_API.MvcApplicationPartsAssemblyInfo.cache
