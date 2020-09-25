@@ -70,6 +70,10 @@ namespace EduX_API.Repositories
             {
                 Turma turma = BuscarPorId(id);
 
+                if (turma == null){
+                    throw new Exception("Turma inexistente!");    
+                }
+
                 _ctx.Turma.Remove(turma);
                 _ctx.SaveChanges();
             }
