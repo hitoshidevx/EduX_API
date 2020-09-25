@@ -8,10 +8,10 @@ namespace EduX_API.Interface
 {
     interface IAlunoTurma
     {
-        List<AlunoTurma> Listar();
-        void Adicionar();
-        void Remover();
-        void Ler();
-        void Alterar();
+        List<AlunoTurma> ListarTodos();
+        AlunoTurma BuscarPorId(Guid id);
+        void Adicionar(AlunoTurma a);
+        void Alterar(Guid id, AlunoTurma a);
+        void Remover(Guid id);
     }
 }
